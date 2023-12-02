@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>HomeCarDetailers - Nuestros Servicios</title>
+		<title>HomeCarDetailers - Reserva Online</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -27,7 +27,7 @@
 						<ul class="links">
 							<li class="active"><a href="index.html">Esto es HomeCarDetailers</a></li>
 							<li><a href="servicios.html">Nuestros Servicios</a></li>
-							<li><a href="back.html">Cita Online</a></li>
+							<li><a href="back.html">Reserva  Online</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -44,60 +44,14 @@
 							<section class="post">
 								<header class="major">
 									<span class="date">HomeCarDetailers</span>
-									<h1>Lavado Exterior</h1>
-									<p>Precio: <b>Desde 50€</b></p>
+									<h1>Reserva tu cita con nosotros</h1>
+									<p>Para poder atenderte mejor, por favor, déjanos la fecha y el horario que mejor te viene y nos intentaremos adaptar a tus necesidades.<br />
+										Además, es importante que nos indiques el lugar donde quieres que te atendamos, ya que nos desplazamos a domicilio. <br />
+										Para algunos de nuestros servicios esta información es importante para poder ofrecerte el mejor servicio posible. <br />
+										Si lo prefieres, también puedes contactar con nosotros por teléfono o por email y gestionaremos tu cita sin problemas <br />
+									</p>
 								</header>
-								<div class="image main"><img src="images/ultimo-detallado.jpg" alt="" /></div>
-								<p> Incluye:<li>Limpieza completa de carrocería</li>
-											<li>Limpieza de llantas y neumáticos</li>
-											<li>Limpieza de manchas y mosquitos</li>
-											<li>Limpieza de cristales por dentro y por fuera</li>
-								</p>
-								<p> Si desea un acabado premium, disponemos además de los siguientes servicios:
-											<li>Descontaminado de pintura: <b>15€ adicionales</b></li>
-											<li>Pulido de abrillantado: <b>30€ adicionales</b></li>
-											<li>Tratamiento con Cera: <b>20€ adicionales</b></li>
-											<li>Tratamiento cerámico: <b>30€ adicionales</b></li>
-								</p>
-								<header class="major">
-									<span class="date">HomeCarDetailers</span>
-									<h1>Lavado Interior</h1>
-									<p>Precio: <b>Desde 50€</b></p>
-								</header>
-								<div class="image main"><img src="images/ultimo-detallado3.jpg" alt="" /></div>
-								<p> Incluye:
-									<li>Limpieza de salpicadero y todos los plásticos del interior</li>
-									<li>Limpieza de puertas y cercos de las puertas</li>
-									<li>Aspirado completo de todo el interior</li>
-									<li>Limpieza de alfombrillas</li>
-								</p>
-								<p> Si desea un acabado premium, disponemos además de los siguientes servicios:
-									<li>Limpieza de tapicería de cuero: <b>15€ adicionales</b></li>
-									<li>Limpieza de tapicería de tela: <b>15€ adicionales</b></li>
-									<li>Tratamiento de eliminación de olores y aromatización: <b>5€ adicionales</b></li>
-								</p>
-								<header class="major">
-									<span class="date">HomeCarDetailers</span>
-									<h1>Lavado Exterior e Interior</h1>
-									<p>Precio: <b>Desde 100€</b></p>
-								</header>
-								<div class="image main"><img src="images/servicios1.jpg" alt="" /></div>
-								<p> Incluye:
-									<li>Limpieza exterior</li>
-									<li>Limpieza interior</li>
-									<li>Desucento de un 15% sobre el precio final incluyendo los servicios adionales</li>
-								</p>
-								<p> Si desea un acabado premium, disponemos además de los siguientes servicios:
-									<li>Limpieza exterior acabado premium: <b>Precio según servicios requeridos</b></li>
-									<li>Limpieza de tapicería de tela: <b>Precio según servicios requeridos</b></li>
-									<li>Tratamiento de eliminación de olores y aromatización: <b>5€ adicionales</b></li>
-								</p>
-								<header class="major">
-									<span class="date">HomeCarDetailers</span>
-									<h1>Descuento por fidelidad</h1>
-									<p>Descuento: <b>5% para clientes habituales</b></p>
-								</header>
-								<p> Queremos premiar tu fidelidad y por eso queremos regalarte un 5% sobre los servicios contratados en tu siguiente visita</p>
+
 							</section>
 
 					</div>
@@ -119,16 +73,31 @@
 									<input type="text" name="email" id="email" />
 								</div>
 								<div class="field">
-									<label for="name">telefono</label>
+									<label for="name">Teléfono</label>
 									<input type="text" name="telefono" id="telefono" />
 								</div>
 								<div class="field">
-									<label for="message">Mensaje</label>
-									<textarea name="message" id="message" rows="3"></textarea>
+									<label for="vehiculo">Vehículo</label>
+									<input type="text" name="vehiculo" id="vehiculo" >
 								</div>
-							</div>
+								<div class="field">
+									<label for="servicio">Servicio a realizar</label>
+									<textarea name="servicio-a-realizar" id="servicio" rows="3"></textarea>
+								</div>
+								<div class="field">
+									<label for="fecha">Fecha</label>
+									<input type="date" name="fecha" id="fecha" >
+								</div>
+								<div class="field">
+									<label for="hora">Hora</label>
+									<input type="time" name="hora" id="hora" >
+								</div>
+								<div class="field">
+									<label for="lugar">Donde deberíamos realizar el servicio (calle, garaje, etc...) </label>
+									<input type="text" name="lugar" id="lugar" >
+								</div>
 							<ul class="actions">
-								<li><input type="submit" value="Enviar Mensaje"/></li>
+								<li><input type="submit" value="Solicitar Servicio"/></li>
 							</ul>
 						</form>
 					</section>
