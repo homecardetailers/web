@@ -84,19 +84,19 @@
 			};
 
 			// Disable parallax on ..
-				if (browser.name == 'ie'			// IE
-				||	browser.name == 'edge'			// Edge
-				||	window.devicePixelRatio > 1		// Retina/HiDPI (= poor performance)
-				||	browser.mobile)					// Mobile devices
-					off();
+			//	if (browser.name == 'ie'			// IE
+			//	||	browser.name == 'edge'			// Edge
+			//	||	window.devicePixelRatio > 1		// Retina/HiDPI (= poor performance)
+			//	||	browser.mobile)					// Mobile devices
+			//		off();
 
 			// Enable everywhere else.
-				else {
+			//	else {
 
 					breakpoints.on('>large', on);
 					breakpoints.on('<=large', off);
 
-				}
+			//	}
 
 		});
 
